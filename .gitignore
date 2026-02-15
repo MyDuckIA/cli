@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+coverage/
+.claude/
+.codex/
+myduckd.sock
+tmp/
+.cache/
+.myduck/

@@ -1,0 +1,15 @@
+installation:
+  version: 6.0.0-Beta.8
+  installDate: 2026-02-13T13:43:39.886Z
+  lastUpdated: 2026-02-13T13:43:39.886Z
+modules:
+  - name: core
+    version: 6.0.0-Beta.8
+    installDate: 2026-02-13T13:43:39.886Z
+    lastUpdated: 2026-02-13T13:43:39.886Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+ides:
+  - codex
+  - claude-code

@@ -1,0 +1,25 @@
+{
+  "name": "myduck",
+  "version": "0.1.0",
+  "description": "A rubber-duck CLI that asks questions and never gives direct solutions.",
+  "type": "module",
+  "bin": {
+    "myduck": "src/cli.js",
+    "myduckd": "src/local-daemon.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "daemon": "node src/local-daemon.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "rubber-duck",
+    "developer-tools",
+    "open-source"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
