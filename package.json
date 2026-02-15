@@ -1,5 +1,5 @@
 {
-  "name": "myduck",
+  "name": "@myduckia/cli",
   "version": "0.1.0",
   "description": "A rubber-duck CLI that asks questions and never gives direct solutions.",
   "type": "module",
@@ -12,6 +12,11 @@
     "daemon": "node src/local-daemon.js",
     "test": "node --test"
   },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "cli",
     "rubber-duck",
@@ -21,5 +26,19 @@
   "license": "MIT",
   "engines": {
     "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyDuckIA/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MyDuckIA/cli/issues"
+  },
+  "homepage": "https://github.com/MyDuckIA/cli#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@myduckia/cli": "^0.1.0"
   }
 }

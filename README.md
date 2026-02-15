@@ -61,7 +61,7 @@ npm link
 ### Global install (after publish)
 
 ``` bash
-npm install -g myduck
+npm install -g @myduckia/cli
 ```
 
 ------------------------------------------------------------------------
